@@ -23,7 +23,7 @@ class Cin7Core(object):
                 "No Cin7 Core API account id. Pass it into client constructor or "
                 "set env var CIN7CORE_ACCOUNT_ID"
             )
-        if not self.account_id:
+        if not self.app_key:
             raise errors.AuthenticationError(
                 "No Cin7 Core API app key. Pass it into client constructor or "
                 "set env var CIN7CORE_APP_KEY"
